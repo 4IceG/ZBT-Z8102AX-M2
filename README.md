@@ -38,4 +38,4 @@ My OpenWrt SNAPSHOT / LuCI Main :: user friendly :: build for the Z8102AX-M2 (Z8
 
 > zzz / zzz:
 
-![](zzz)
+![]([zzz](https://github.com/4IceG/ZBT-Z8102AX-M2/blob/main/ZBT%20to%20OpenWrt/zbtlink.png?raw=true)https://github.com/4IceG/ZBT-Z8102AX-M2/blob/main/ZBT%20to%20OpenWrt/zbtlink.png?raw=true)
