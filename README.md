@@ -297,7 +297,6 @@ luci-app-drive-status-mini - 0.4-20230701
 luci-app-ekooneplstat - 20220729
 luci-app-firewall - git-23.267.29502-3e7fe9f
 luci-app-hd-idle - git-23.267.29502-3e7fe9f
-luci-app-hwatchdog - 1.0.1-20230915
 luci-app-internet-detector - 0.4
 luci-app-ksmbd - git-23.267.29502-3e7fe9f
 luci-app-lite-watchdog - 1.0.11-20230815
@@ -322,7 +321,6 @@ luci-i18n-cpu-status-mini-pl - unknown
 luci-i18n-drive-status-mini-pl - unknown
 luci-i18n-firewall-pl - git-23.270.68722-cbe0748
 luci-i18n-hd-idle-pl - git-23.263.30531-f59a194
-luci-i18n-hwatchdog-pl - unknown
 luci-i18n-internet-detector-pl - unknown
 luci-i18n-ksmbd-pl - git-23.270.68722-cbe0748
 luci-i18n-lite-watchdog-pl - unknown
