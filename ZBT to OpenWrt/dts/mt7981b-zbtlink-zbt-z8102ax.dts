@@ -41,11 +41,6 @@
 			gpios = <&pio 0 GPIO_ACTIVE_HIGH>;
 		};
 
-		button-hub {
-			label = "hub";
-			linux,code = <BTN_1>;
-			gpios = <&pio 12 GPIO_ACTIVE_HIGH>;
-		};
 	};
 
 	leds {
@@ -83,6 +78,16 @@
 		gpios = <&pio 2 GPIO_ACTIVE_HIGH>;
 		hw_algo = "toggle";
 		hw_margin_ms = <30000>;
+	};
+	
+	usb_vbus: regulator-usb-vbus {
+		compatible = "regulator-fixed";
+		regulator-name = "usb_vbus";
+		regulator-min-microvolt = <5000000>;
+		regulator-max-microvolt = <5000000>;
+		gpio = <&pio 12 GPIO_ACTIVE_HIGH>;
+		enable-active-high;
+		regulator-boot-on;
 	};
 
 	gpio-export {
@@ -309,6 +314,8 @@
 };
 
 &xhci {
+	vbus-supply = <&usb_vbus>;
+
 	status = "okay";
 };
 
