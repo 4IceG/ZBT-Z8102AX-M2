@@ -1,5 +1,5 @@
 # ZBT-Z8102AX-M2 V1
-My OpenWrt SNAPSHOT / LuCI Main :: user friendly :: build for the Z8102AX-M2 (Z8102AX v01) router.
+My OpenWrt SNAPSHOT / LuCI Main :: user friendly :: build for the Z8102AX-M2 (Z8102AX V1) router.
 
 <p align="center">
 <img src="https://github.com/4IceG/Personal_data/blob/master/developzbt.png?raw=true" />
