@@ -1,4 +1,4 @@
-# ZBT-Z8102AX-M2 V1
+# ZBT-Z8102AX-M2 V1 & V2
 My OpenWrt SNAPSHOT / LuCI Main :: user friendly :: build for the Z8102AX-M2 (Z8102AX V1) router.
 
 <p align="center">
